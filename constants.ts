@@ -4,11 +4,11 @@ export const PRICE_LIST_DATA: ServiceSection[] = [
   {
     title: "WIG MAKING AND STYLING",
     items: [
-      { service: "CLOSURE WIGGING", price: "#25,000" },
-      { service: "FRONTAL WIGGING", price: "#40,000" },
-      { service: "PONYTAIL CLIPS", price: "#15,000" },
-      { service: "HEADBAND WIG", price: "#25,000" },
-      { service: "BOB WIG RE-WIGGING", price: "#25,000" },
+      { service: "CLOSURE WIGGING", price: "₦20,000" },
+      { service: "FRONTAL WIGGING", price: "₦25,000" },
+      { service: "PONYTAIL CLIPS", price: "₦10,000" },
+      { service: "HEADBAND WIG", price: "₦20,000" },
+      { service: "BOB WIG RE-WIGGING", price: "₦20,000" },
     ],
     policy: [
       "REWIGGING OLD UNITS AND NEW BUNDLES COST THE SAME.",
@@ -20,11 +20,11 @@ export const PRICE_LIST_DATA: ServiceSection[] = [
   {
     title: "WIG REVAMP AND STYLING",
     items: [
-      { service: "8 - 12 INCHES", price: "#15,000" },
-      { service: "14 - 18 INCHES", price: "#18,000" },
-      { service: "20 - 24 INCHES", price: "#20,000" },
-      { service: "26 - 32 INCHES", price: "#25,000" },
-      { service: "COLORED WIG AND WEAVES", price: "#7,000", detail: "EXTRA" },
+      { service: "8 - 12 INCHES", price: "₦13,000" },
+      { service: "14 - 18 INCHES", price: "₦15,000" },
+      { service: "20 - 24 INCHES", price: "₦17,000" },
+      { service: "26 - 32 INCHES", price: "₦20,000" },
+      { service: "COLORED WIG AND WEAVES", price: "₦4,000", detail: "EXTRA" },
     ],
     policy: [
       "THE COST INCLUDES STYLING. THE SERVICE IS INCLUSIVE OF FREE CHANGE OF LOOSE ELASTIC BAND, MAKE UP AND GLUE FROM LACE, RESTITCHING OF LOOSE TRACK AND DEEP CONDITIONING.",
@@ -34,9 +34,9 @@ export const PRICE_LIST_DATA: ServiceSection[] = [
   {
     title: "LACE MAINTENANCE",
     items: [
-      { service: "CLOSURE REFILL", price: "#15,000", detail: "FROM" },
-      { service: "FRONTAL REFILL", price: "#20,000", detail: "FROM" },
-      { service: "LACE REPAIR AND REFILL", price: "#20,000", detail: "FROM" },
+      { service: "CLOSURE REFILL", price: "₦10,000", detail: "FROM" },
+      { service: "FRONTAL REFILL", price: "₦15,000", detail: "FROM" },
+      { service: "LACE REPAIR AND REFILL", price: "₦15,000", detail: "FROM" },
     ],
     policy: [
       "YOU ARE REQUIRED TO PROVIDE THE WEAVE WE WILL USE FOR REFILLING BALD AREAS OF YOUR CLOSURE/FRONTAL.",
