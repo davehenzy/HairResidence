@@ -38,7 +38,7 @@ export const PriceCard: React.FC<PriceCardProps> = ({ section }) => {
             {section.items.map((item, index) => (
               <div 
                 key={index} 
-                className="flex items-center justify-between p-3 sm:p-4 rounded-xl hover:bg-gray-100 transition-all duration-200 border border-transparent hover:border-gray-200 hover:shadow-md group/item"
+                className="flex items-center justify-between p-3 sm:p-4 rounded-xl transition-all duration-300 border border-transparent hover:bg-gray-100 hover:border-gray-200 hover:shadow-lg hover:-translate-y-0.5 group/item"
               >
                 {/* Service Details */}
                 <div className="flex-1 pr-4">
