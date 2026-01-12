@@ -66,7 +66,7 @@ const App: React.FC = () => {
 
           <div className="relative z-10 bg-white p-3 rounded-xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
              <img 
-               src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://wa.me/1234567890&color=000000&bgcolor=ffffff" 
+               src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://wa.me/${CONTACT_NUMBER}&color=000000&bgcolor=ffffff`} 
                alt="WhatsApp QR Code"
                className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-lg border border-gray-100"
              />

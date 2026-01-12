@@ -56,5 +56,5 @@ export const PRICE_LIST_DATA: ServiceSection[] = [
   }
 ];
 
-export const CONTACT_NUMBER = "1234567890"; // Placeholder number
+export const CONTACT_NUMBER = "2348105895363";
 export const INSTAGRAM_HANDLE = "@HAIRRESIDENCE_STYLING";
